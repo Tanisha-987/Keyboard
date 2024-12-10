@@ -1,0 +1,151 @@
+body
+{
+    background-image: url(key.png);
+    background-size: cover;
+    width: 1000px;
+}
+.s1
+{
+    height: 20px;
+}
+.same1
+{
+   width: 48.5px;
+}
+.s
+{
+    height: 40px;
+    margin-right: 5px;
+  
+}
+.same
+{
+    width: 45px;    
+}
+#tild
+{
+    width: 35px;
+}
+#backspace
+{
+    width: 90px;
+}
+#main
+{
+    position: relative;
+    top: 250px;
+    left: 210px;
+}
+#k1
+{
+    position: absolute;
+    top: 30px;
+}
+#tab
+{
+    width: 50px;
+}
+#backslash
+{
+    width: 75px;
+}
+#k2
+{
+    position: absolute;
+    top: 80px;
+}
+#caps
+{
+    width:70px ;
+}
+#enter
+{
+    width: 110px;
+}
+
+#k3
+{
+    position: absolute;
+    top: 130px;
+}
+
+#shift
+{
+    width: 95px;
+}
+#shift1
+{
+    width: 138px;
+}
+#k4
+{
+    position: absolute;
+    top: 180px;
+}
+#space
+{
+    width: 257px;
+}
+
+#up
+{
+    
+    width: 85px;
+    height: 17px;
+    position: absolute;
+    top: 2px;
+}
+
+#down
+{
+    width: 85px;
+    height: 17px;
+    position: absolute;
+    bottom: 2px;
+}
+
+#end
+{
+    margin-left: 93px;
+    
+}
+#k5
+{
+    position: absolute;
+    top: 230px;
+}
+
+/* .s:hover
+{
+    border: 4px solid white;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.s1:hover
+{
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+} */
+
+#result
+{
+    width: 700px;
+    height: 40px;
+    position: absolute;
+    top: 120px;
+    left: 280px;
+    border: 3px solid white;
+    font-size: 30px;
+    padding-left: 5px;
+    background-color: transparent;
+    color: white;
+}
+
+
+

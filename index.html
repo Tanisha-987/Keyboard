@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="keyboard.css">
+    <script defer src="keyboard.js"></script>
+</head>
+<body>
+    
+    <div id="result" ></div>
+    <div id="main">
+        <div id="k0">
+            <input class="same1" type="button" title="key" onkeyup="change()" value="esc">
+            <input class="same1 s1" type="button" title="key" value="">
+            <input class="same1 s1" type="button" title="key" value="">
+            <input class="same1 s1" type="button" title="key" value="">
+            <input class="same1 s1" type="button" title="key" value="">
+            <input class="same1 s1" type="button" title="key" value="">
+            <input class="same1 s1" type="button" title="key" value="">
+            <input class="same1 s1" type="button" title="key" value="">
+            <input class="same1 s1" type="button" title="key" value="">
+            <input class="same1 s1" type="button" title="key" value="">
+            <input class="same1 s1" type="button" title="key" value="num lk">
+            <input class="same1 s1" type="button" title="key" value="">
+            <input class="same1 s1" type="button" title="key" value="">
+            <input class="same1 s1" type="button" title="key" value="prt scr">
+            <input class="same1 s1" type="button" title="key" value="insert">
+            <input class="same1 s1" type="button" title="key" value="delete">
+        </div>
+
+        <div id="k1">
+            <input id="tild" class="s" type="button" title="btn" value="~">
+            <input class="same s" type="button" title="key" value="1">
+            <input class="same s" type="button" title="key" value="2">
+            <input class="same s" type="button" title="key" value="3">
+            <input class="same s" type="button" title="key" value="4">
+            <input class="same s" type="button" title="key" value="5">
+            <input class="same s" type="button" title="key" value="6">
+            <input class="same s" type="button" title="key" value="7">
+            <input class="same s" type="button" title="key" value="8">
+            <input class="same s" type="button" title="key" value="9">
+            <input class="same s" type="button" title="key" value="0">
+            <input class="same s" type="button" title="key" value="-">
+            <input class="same s" type="button" title="key" value="+">
+            <input id="backspace" class="s" type="button" title="key" value="backspace">
+            <input class="same s" type="button" title="key" value="home">
+        </div>
+
+        <div id="k2">
+            <input id="tab" class="s" type="button" title="btn" value="tab">
+            <input class="same s" type="button" title="key" value="Q">
+            <input class="same s" type="button" title="key" value="W">
+            <input class="same s" type="button" title="key" value="E">
+            <input class="same s" type="button" title="key" value="R">
+            <input class="same s" type="button" title="key" value="T">
+            <input class="same s" type="button" title="key" value="Y">
+            <input class="same s" type="button" title="key" value="U">
+            <input class="same s" type="button" title="key" value="I">
+            <input class="same s" type="button" title="key" value="O">
+            <input class="same s" type="button" title="key" value="P">
+            <input class="same s" type="button" title="key" value="{">
+            <input class="same s" type="button" title="key" value="}">
+            <input id="backslash" class="s" type="button" title="key" value="\">
+            <input class="same s" type="button" title="key" value="pg up">
+        </div>
+
+
+        <div id="k3">
+            <input id="caps" class="s" type="button" title="btn" value="caps lock">
+            <input class="same s" type="button" title="key" value="A">
+            <input class="same s" type="button" title="key" value="S">
+            <input class="same s" type="button" title="key" value="D">
+            <input class="same s" type="button" title="key" value="F">
+            <input class="same s" type="button" title="key" value="G">
+            <input class="same s" type="button" title="key" value="H">
+            <input class="same s" type="button" title="key" value="J">
+            <input class="same s" type="button" title="key" value="K">
+            <input class="same s" type="button" title="key" value="L">
+            <input class="same s" type="button" title="key" value=";">
+            <input class="same s" type="button" title="key" value="'">
+            <input id="enter" class="s" type="button" title="key" value="enter">
+            <input class="same s" type="button" title="key" value="pg dn">
+        </div>
+
+        <div id="k4">
+            <input id="shift" class="s" type="button" title="btn" value="shift">
+            <input class="same s" type="button" title="key" value="Z">
+            <input class="same s" type="button" title="key" value="X">
+            <input class="same s" type="button" title="key" value="C">
+            <input class="same s" type="button" title="key" value="V">
+            <input class="same s" type="button" title="key" value="B">
+            <input class="same s" type="button" title="key" value="N">
+            <input class="same s" type="button" title="key" value="M">
+            <input class="same s" type="button" title="key" value="<">
+            <input class="same s" type="button" title="key" value=">">
+            <input class="same s" type="button" title="key" value="/">
+            <input id="shift1" class="s" type="button" title="key" value="shift">
+            <input class="same s" type="button" title="key" value="end">
+        </div>
+
+        <div id="k5">
+            <input class="same s" type="button" title="key" value="ctrl">
+            <input class="same s" type="button" title="key" value="fn">
+            <input class="same s" type="button" title="key" value="">
+            <input class="same s" type="button" title="key" value="alt">
+            <input id="space" class="s" type="button" title="key" value=" ">
+            <input class="same s" type="button" title="key" value="alt gr">
+            <input class="same s" type="button" title="key" value="">
+            <input class="same s" type="button" title="key" value="ctrl">
+            <input class="same s" type="button" title="key" value="<">
+            <input id="up" class="s" type="button" title="key" value="">
+            <input id="down" class="s" type="button" title="key" value="">
+            <input id="end" class="same s" type="button" title="key" value=">">
+
+        </div>
+    </div>
+</body>
+</html>
